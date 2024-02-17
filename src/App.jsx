@@ -14,16 +14,16 @@ function App() {
   const handleNavigation = (option) => {
     if (option === 'Pase de parámetros') {
       setShowLoginForm(true);
-      setShowPDFForm(false); // Reiniciar el estado al cambiar de sección
-      setSubmittedData(null); // Reiniciar el estado al cambiar de sección
+      setShowPDFForm(false); 
+      setSubmittedData(null);
     } else if (option === 'Crear PDF') {
       setShowLoginForm(false);
       setShowPDFForm(true);
-      setSubmittedData(null); // Reiniciar el estado al cambiar de sección
+      setSubmittedData(null);
     } else {
       setShowLoginForm(false);
       setShowPDFForm(false);
-      setSubmittedData(null); // Reiniciar el estado al cambiar de sección
+      setSubmittedData(null); 
     }
   };
 

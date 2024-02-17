@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../src/assets/react-js.png'; // Importa la imagen aquí
+import logo from '../src/assets/react-js.png';
 import Swal from 'sweetalert2';
-import 'sweetalert2/src/sweetalert2.scss'; // Asegúrate de importar los estilos de SweetAlert2 si no lo has hecho ya
+import 'sweetalert2/src/sweetalert2.scss';
 
 const Navbar = ({ onNavigate }) => {
     const [isOpen, setIsOpen] = useState(false);
